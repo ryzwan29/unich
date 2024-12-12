@@ -2,15 +2,15 @@
 
 clear
 echo -e "\033[1;32m
-██████╗ ██╗   ██  ███████╗  ███████╗  ███████╗  
-██╔══██╗ ██╗ ██║  ██║   ██║ ██║   ██║ ██║   ██║
-██████╔╝  ████║   ██║   ██║ ██║   ██║ ██║   ██║
-██╔══██╗   ██╔╝   ██║   ██║ ██║   ██║ ██║   ██║
-██║  ██║   ██║    ███████║  ███████║  ███████║
-╚═╝  ╚═╝   ╚═╝    ╚══════╝  ╚══════╝  ╚══════╝
+██████╗ ██╗   ██╗██████╗ ██████╗ ██████╗ ██████╗  █████╗ 
+██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗╚════██╗██╔══██╗
+██████╔╝ ╚████╔╝ ██║  ██║██║  ██║██║  ██║ █████╔╝╚██████║
+██╔══██╗  ╚██╔╝  ██║  ██║██║  ██║██║  ██║██╔═══╝  ╚═══██║
+██║  ██║   ██║   ██████╔╝██████╔╝██████╔╝███████╗ █████╔╝
+╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝ ╚════╝ 
 \033[0m"
 echo -e "\033[1;34m==================================================\033[1;34m"
-echo -e "\033[1;34m@Ryddd29 | Testnet, Node Runer, Developer, Retrodrop\033[1;34m
+echo -e "\033[1;34m@Ryddd29 | Testnet, Node Runer, Developer, Retrodrop\033[1;34m"
 
 sleep 4
 
@@ -33,8 +33,8 @@ if [[ "$USER_INPUT" =~ ^[Yy]$ ]]; then
 
   # Load NVM into the current shell session
   export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && \ . "$NVM_DIR/nvm.sh"
-  [ -s "$NVM_DIR/bash_completion" ] && \ . "$NVM_DIR/bash_completion"
+  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+  [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
 
   # List available Node.js versions
   nvm list-remote
@@ -58,6 +58,6 @@ echo -e "\033[0;32mClone github repository...\033[0m"
 git clone https://github.com/ryzwan29/unich.git
 cd unich
 
-# Install depedencies
-echo -e "\033[0;32mInstalling requirements depedencies...\033[0m"
+# Install dependencies
+echo -e "\033[0;32mInstalling requirements dependencies...\033[0m"
 npm install
