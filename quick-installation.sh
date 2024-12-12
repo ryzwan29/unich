@@ -39,7 +39,6 @@ if [[ "$USER_INPUT" =~ ^[Yy]$ ]]; then
 
   # List available Node.js versions
   nvm list-remote
-  clear
   
   # Ask the user to select a Node.js version to install
   read -p $'\033[1;32m\033[1mSelect your Node.js version: \033[0m' NODEJS_USER
