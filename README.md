@@ -1,43 +1,51 @@
-# UNICH AUTO MINING 
-![banner](image.png)
+# UNICH Airdrop For All User 🪂
+🏷 Reward: Share of Pool 500M $UN
 
-## Features
+🌐 Register Here: 
+[https://unich.com/en/airdrop](https://unich.com/en/airdrop/sign-up?ref=XDBWA7)
 
-- **Auto Complete Tasks**
-- **Auto Start Mines Daily**
-- **Support Multy Accounts**
+🟢 Signup With Email/Google
 
-## Requirements
+🟢 Submit Code => ``XDBWA7`` ( Get Extra FD ) 
 
-- **Node.js**: Ensure you have Node.js installed.
-- **npm**: Ensure you have npm installed.
+🟢 Go To Mining > Start Mining
 
-## register/login 
-- go to here [https://unich.com/en/airdrop](https://unich.com/en/airdrop/sign-up?ref=K0GD0Q) to register or login
-- F12 to inspect after you login to get token 
-- copy your token and paste to `tokens.txt`
+🟢 Done. Mining FD Every 24 Hours
+
+
+# ⚡️ Unich Automation ⚡️
+
+
+⭐️ Features:
+
+🟢 Auto Complete Tasks
+
+🟢 Auto Start Mines Daily
+
+🟢 Support Multi Accounts
+
+# Installation
+```
+source <(curl -s https://raw.githubusercontent.com/ryzwan29/unich/main/quick-installation.sh)
+```
+Input your bearer token to ``tokens.txt``
+```
+nano tokens.txt
+```
+> ⭐ Example if you use multiple accounts:
+> ```
+> your_token1
+> your_token2
+> your_token3
+> ```
+
+# Get Bearer Token
+- Open Unich Dashboard : [https://unich.com/en/airdrop](https://unich.com/en/airdrop/sign-up?ref=XDBWA7)
+- Click F12 to open console
+- Find Network and search for `my-info`
+- Your Bearer token is : ey...
+
 ![get-token](image-1.png)
-
-## Setup
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/rmndkyl/unich-bot.git
-   cd unich-bot
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Setup: input token token tokens.txt
-   ```bash
-   nano tokens.txt
-   ```
-4. Run The Script:
-   ```bash
-   npm run start
-   ```
-
 
 ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
