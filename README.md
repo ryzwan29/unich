@@ -38,6 +38,10 @@ nano tokens.txt
 > your_token2
 > your_token3
 > ```
+Run your script
+```
+npm run start
+```
 
 # Get Bearer Token
 - Open Unich Dashboard : [https://unich.com/en/airdrop](https://unich.com/en/airdrop/sign-up?ref=XDBWA7)
